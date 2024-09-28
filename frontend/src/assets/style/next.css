@@ -1,0 +1,31 @@
+.next {
+  position: relative;
+  border-radius: 2px 0 0 2px;
+  padding: 0 8px 0 13px;
+  line-height: 32px;
+  height: 32px;
+  font-size: 12px;
+  &:after {
+    position: absolute;
+    border-color: transparent transparent transparent #f9da00;
+    border-width: 16px 0 16px 11px;
+    border-style: solid;
+    content: "";
+    left: 100%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+}
+
+@keyframes banner {
+  0% {
+    background-color: rgba(249, 218, 0, 1); /* Màu cam đậm */
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 1); /* Màu vàng cam */
+  }
+  100% {
+    background-color: rgba(249, 218, 0, 1); /* Màu xanh lá cây */
+  }
+}

@@ -1,0 +1,18 @@
+@media screen and (max-width: 748px) {
+  .css-mtpmwg-MuiStack-root {
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 546px) {
+  .css-3i0koc-MuiTabs-root {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 447px) {
+  .css-3i0koc-MuiTabs-root {
+    height: 400px;
+  }
+  .css-zhaoav-MuiStack-root{
+    width: 50px !important;
+  }
+}

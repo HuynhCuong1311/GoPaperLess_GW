@@ -1,0 +1,16 @@
+{
+  "module": "commonjs",
+  "target": "es6",
+  "strict": false,
+  "allowJs": true,
+  "checkJs": true,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"],
+  "typeRoots": ["./typings/*", "@types", "@vite/vitejs/type.ts"]
+}

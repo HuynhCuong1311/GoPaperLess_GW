@@ -1,0 +1,19 @@
+{
+  "details": {
+    "detailed_validation_report": "https://uat-paperless-gw.mobile-id.vn/internalusage/api/validation/e36806729a24859abd6c92607d1db8e095c11582/download/detailed-report-pdf",
+    "diagnostic_data": "https://uat-paperless-gw.mobile-id.vn/internalusage/api/validation/e36806729a24859abd6c92607d1db8e095c11582/download/report-pdf",
+    "validated_document_hash": "6b395ccdb0eceb778a006f65b4c74c2957f63f9cfe196215aa7bee4cdc2aa7a8",
+    "validation_report_id": "e36806729a24859abd6c92607d1db8e095c11582"
+  },
+  "lang": "en",
+  "overview": {
+    "status": "There are errors",
+    "status_code": 0,
+    "total_seals": 2,
+    "total_signatures": 0,
+    "total_valid_seal": 0,
+    "total_valid_signatures": 0,
+    "validation_time": "2024-01-04T13:58:59.857+07:00"
+  },
+  "ppl_file_validation_id": "527"
+}

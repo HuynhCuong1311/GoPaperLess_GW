@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+
+.font-moon-dance {
+  font-family: "Moon Dance", cursive !important;
+}
+
+.react-tel-input .special-label {
+  background-color: transparent;
+  font-family: "Montserrat,Nucleo,Helvetica,sans-serif";
+  top: -8px;
+  left: 10px;
+  font-size: 12px;
+  padding: 0 3px;
+}
+
+.react-tel-input .invalid-number-message {
+  position: absolute;
+  z-index: 1;
+  font-size: 13px;
+  left: 15px;
+  top: 40px;
+  background: #e1f5fe;
+  padding: 0 5px;
+  /* color: #de0000; */
+}
+
+#pinNumber {
+  -webkit-text-security: disc;
+  -text-security: disc;
+}
+
+canvas.step6 {
+  position: absolute;
+  top: 46.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+video {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.video-direction {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 440px;
+  padding: 10px 0;
+  transform: translate(-50%, -50%);
+}
+
+/* authorize code input */
+
+.inputStyle {
+  width: 43px !important;
+  height: 43px;
+  border-radius: 7px;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 20px;
+  border: 1px solid #3b82f6;
+}
+
+.containerStyle {
+  display: flex;
+  justify-content: center;
+}
+
+/* end of authorize code input */
+
+/* disable arrow input number */
+
+/* Chrome, Safari, Edge, Opera */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* Firefox */
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
+
+/* end of disable arrow input number */
+
+.no-spinner {
+  input[type="number"].no-spinner::-webkit-inner-spin-button,
+  input[type="number"].no-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.topline {
+  position: absolute;
+  border-top: 1px #ffb600 dotted;
+  vertical-align: middle;
+  top: -3px;
+  left: -100vh;
+  right: -100vh;
+  display: none;
+}
+
+.rightline {
+  position: absolute;
+  right: -3px;
+  border-right: 1px #ffb600 dotted;
+  display: none;
+  vertical-align: middle;
+  top: -100vh;
+  bottom: -100vh;
+}
+
+.botline {
+  position: absolute;
+  bottom: -3px;
+  border-bottom: 1px #ffb600 dotted;
+  vertical-align: middle;
+  left: -100vh;
+  right: -100vh;
+  display: none;
+}
+
+.leftline {
+  position: absolute;
+  left: -3px;
+  border-left: 1px #ffb600 dotted;
+  display: none;
+  vertical-align: middle;
+  top: -100vh;
+  bottom: -100vh;
+}
+
+.droptarget {
+  width: 100px;
+  height: 35px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.toolbar {
+  background: #e1e1e1;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+}
+
+/* .ql-editor {
+  background: white;
+} */
+
+/* Set content for font-families */
+.ql-font-verdana,
+.ql-font span[data-value="verdana"]::before {
+  font-family: Verdana, sans-serif;
+}
+.ql-font-comic-sans,
+.ql-font span[data-value="comic-sans"]::before {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.ql-font-courier-new,
+.ql-font span[data-value="courier-new"]::before {
+  font-family: "Courier New";
+}
+.ql-font-georgia,
+.ql-font span[data-value="georgia"]::before {
+  font-family: Georgia, serif;
+}
+.ql-font-helvetica,
+.ql-font span[data-value="helvetica"]::before {
+  font-family: Helvetica, sans-serif;
+}
+.ql-font-lucida,
+.ql-font span[data-value="lucida"]::before {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Set content for sizes */
+.ql-size-13,
+.ql-size span[data-value="13"]::before {
+  font-size: 13px !important;
+}
+.ql-size-14,
+.ql-size span[data-value="14"]::before {
+  font-size: 14px !important;
+}
+.ql-size-18,
+.ql-size span[data-value="18"]::before {
+  font-size: 18px !important;
+}
+.ql-size-20,
+.ql-size span[data-value="20"]::before {
+  font-size: 20px !important;
+}
+
+.ql-toolbar.ql-snow {
+  border-bottom: none;
+}
+
+.rpv-toolbar__item button[data-testid="toolbar__more-actions-popover-target"] {
+  display: none;
+}
